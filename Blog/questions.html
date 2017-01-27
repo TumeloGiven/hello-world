@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<title>Head</title>
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+		<script type="text/javascript" src="js/search-autocomplete.js"></script>
+		<script type="text/javascript" src="js/overlay.js"></script>
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<!--- Overlay --->
+		
+				
+		<div class="header">
+			<div class="headerContent">
+				<div class="logoWrapper">
+					<img src="logo2.PNG"/>
+				</div>
+				
+				<div id="searchfield" class="child">
+						<form><input type="text" name="chapter" class="biginput" id="autocomplete"></form>
+				</div>
+				
+				<ul class="nav nav-tabs">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="#" >Q&A</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+				  </ul>
+				
+				
+			</div>
+			
+		</div>
+		<div class="content">
+			<div class="wrapper">
+				<h2>Ask a Question</h2>
+				<form id="contactUs">
+					
+					Name: <input type="text" text="" name="username" placeholder="First name" />	
+					Email: <input type="text" text="email" name="useremail" placeholder="example@dot.co.za"/>	
+				
+				
+				<textarea cols="60" rows="10" >
+				
+				</textarea>
+				</form>
+				
+			</div>
+		</div>
+		<div id="outputbox" class="overlay" style="width: 600px;top: 0;left: 0;max-height: 300px;display: block;">
+				<span class="closeButton">x</span>
+				<p id="outputcontent"></p>
+			</div>
+		
+		
+	</body>
+</html>
